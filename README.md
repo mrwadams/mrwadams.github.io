@@ -8,6 +8,7 @@ I have a superior knowledge of information protection, securing assets throughou
 
 If you would like to contact me about a potential role then either please message me on [LinkedIn](https://www.linkedin.com/in/matthewrwadams/).
 
+*****
 
 ### My Expertise
 - Security Architecture
@@ -25,6 +26,7 @@ If you would like to contact me about a potential role then either please messag
 - Project Management
 - Phishing / Social Engineering
 
+*****
 
 ### Experience
 #### Global Security Architect - Costa Coffee
@@ -32,18 +34,21 @@ Jan 2020 - Present
 
 Accountable for the development of information security architecture across the entire Costa Group.
 
+<br>
 
 #### Director - Cyber Threat Consulting
 Oct 2014 - Jan 2020 (5yrs 4 mos)
 
 Operated as an independent contractor, delivering cyber security consultancy services to organisations such as Whitbread, NFU Mutual, The London Metal Exchange and the Department for Education. See details of contracts that I have delivered for clients below (and my permanent career prior to that).
 
+<br>
 
 #### Senior Information Security Consultant / Architect - Whitbread (Contract)
 Jan 2019 - Dec 2019 (12 mos)
 
 Engaged to provide assurance and a conceptual design for security services to ensure secure separation of systems and data from the Whitbread IT estate as part of Coca-Cola’s acquisition of the Costa brand. Lead the production of a conceptual design for security services to ensure secure an equivalent level of protection for Costa data and applications pre and post migration. Reviewed solution designs proposed by the client's outsourced IT provider to identify potential gaps in capability and implementation of security standards (ISO 27001, CIS & Microsoft Security Baseline). Completed risk assessment of compliance gaps, providing pragmatic options for remediation.
 
+<br>
 
 #### Cyber Risk Management Consultant - NFU Mutual (Contract)
 Jun 2016 - Dec 2018 (2yrs 7 mos)
@@ -56,6 +61,7 @@ Key achievements:
 - Developed risk reporting dashboards to display high and low-level views of security risks.
 - Succeeded in delivering a cyber risk assessment methodology enabling NFUM to quantify its exposure to existing and emerging risks, the output was used to determine the priorities and scope of a £3m security improvement programme.
 
+<br>
 
 #### Cyber Security / Information Security Manager - Department for Education (Contract)
 Apr 2016 - Jun 2016 (3 mos)
@@ -66,6 +72,7 @@ Key achievements:
 - Led production of a detailed risk assessment and risk treatment plan in support of the Department’s migration of all key line-of-business applications to a cloud hosting environment.
 - Produced a Privacy Impact Assessment for six new cyber security capabilities to be implemented by the Department to protect business critical systems and data hosted in a cloud computing environment.
 
+<br>
 
 #### Information Security Consultant - London Metal Exchange (Contract)
 Feb 2014 - Apr 2016 (2yrs 3 mos)
@@ -80,6 +87,7 @@ Key achievements:
 - Implemented data leakage prevention controls for corporate email and web traffic. These policy-based controls utilised a combination of keyword matching and data classification metadata to identify sensitive files and prevent them from being sent outside the corporate network.
 - Successfully improved security maturity level, meeting all national critical infrastructure requirements and addressing KPMG audit concerns. Introduction of improved security capabilities underpinned successful completion of CBEST testing.
 
+<br>
 
 #### Earlier Career - Deloitte
 2006 - 2014 (8yrs)

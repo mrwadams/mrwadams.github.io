@@ -28,21 +28,21 @@ As we're deploying Istio on Minikube and not a public cloud we will use [MetalLB
 ### Create Minikube cluster
 
 1. Start `minikube`, ensuring that the cluster meets the minimum requirements for running Istio.
-```
-minikube start --cpus=4 --memory=8g
-```
+    ```
+    minikube start --cpus=4 --memory=8g
+    ```
 
 ### Configure MetalLB
 
 2. Check that the pods in the `metallb-system` namespace are running.
-```
-kubectl get pods -n metallb-system
-```
+    ```
+    kubectl get pods -n metallb-system
+    ```
 
 3. Verify that MetalLB has the correct IP address range configured. If you're not sure, go back and check the [MetalLB installation guide]((https://tonejito.github.io/kbe/topics/metallb/install/)). 
-```
-kubectl get configmap config -n metallb-system -o yaml
-```
+    ```
+    kubectl get configmap config -n metallb-system -o yaml
+    ```
 
 ### Install Istio
 
@@ -51,73 +51,73 @@ kubectl get configmap config -n metallb-system -o yaml
 5. Add the location of the `istioctl` application to `PATH`.
 
 6. Run a pre-check to test whether the cluster meets the requirements to install Istio.
-```
-istioctl experimental precheck
-```
+    ```
+    istioctl experimental precheck
+    ```
 
 7. Install Istio on the cluster.
-```
-istioctl install --set profile=demo -y
-```
+    ```
+    istioctl install --set profile=demo -y
+    ```
 
 8. List the resources created in the `istio-system` namespace.
-```
-kubectl get deployments,pods -n istio-system
-```
+    ```
+    kubectl get deployments,pods -n istio-system
+    ```
 
 9. From the output returned, identify the external IP of the Istio ingress gateway and make a note of it for later. Note that the IP address is provided by MetalLB as the ingress gateway service type is `LoadBalancer`.
-```
-PS C:\Users\mrwad> kubectl get services -n istio-system
-NAME                   TYPE           CLUSTER-IP       EXTERNAL-IP      PORT(S)                                          AGE
-istio-egressgateway    ClusterIP      10.110.202.51    <none>           80/TCP,443/TCP                                   5m
-istio-ingressgateway   LoadBalancer   10.106.114.255   192.168.59.100   15021:30867/TCP,80:30976/TCP,443:32641/TCP...    5m
-istiod                 ClusterIP      10.106.160.228   <none>           15010/TCP,15012/TCP,443/TCP,15014/TCP            6m
-```
+    ```
+    PS C:\Users\mrwad> kubectl get services -n istio-system
+    NAME                   TYPE           CLUSTER-IP       EXTERNAL-IP      PORT(S)                                          AGE
+    istio-egressgateway    ClusterIP      10.110.202.51    <none>           80/TCP,443/TCP                                   5m
+    istio-ingressgateway   LoadBalancer   10.106.114.255   192.168.59.100   15021:30867/TCP,80:30976/TCP,443:32641/TCP...    5m
+    istiod                 ClusterIP      10.106.160.228   <none>           15010/TCP,15012/TCP,443/TCP,15014/TCP            6m
+    ```
 
 ### Deploy Istio add-ons
 
 10. Deploy the Istio add-ons included in the release files you downloaded in Step 4. Update the file path in the following command as needed to match the location that you extracted the files to.
-```
-kubectl apply -f istio-1.12.7/samples/addons
-```
+    ```
+    kubectl apply -f istio-1.12.7/samples/addons
+    ```
 
 11. Verify that the add-ons have been deployed to the `istio-system` namespace and are showing as ready. This will take a few minutes so re-run the command as required.
-```
-kubectl get deployments -n istio-system
-```
+    ```
+    kubectl get deployments -n istio-system
+    ```
 
 ### Create example application
 
 12. Enable sidecar injection for the `default` namespace to add an `istio-proxy` container on each pod. That proxy will control the ingress and egress traffic for the pods.
-```
-kubectl label namespace default isio-injection=enabled --overwrite
-```
+    ```
+    kubectl label namespace default isio-injection=enabled --overwrite
+    ```
 
 13. Deploy an example application from the `hello-world` sample included with the Istio installation files.
-```
-kubectl apply -f istio-1.12.7/samples/helloworld/helloworld.yaml
-```
-The above command will create a new service called `helloworld` and two pods (v1 and v2).
+    ```
+    kubectl apply -f istio-1.12.7/samples/helloworld/helloworld.yaml
+    ```
+    The above command will create a new service called `helloworld` and two pods (v1 and v2).
 
 14. Verify the deployment and pods are ready by running...
-```
-kubectl get deployments,pods -l app=helloworld
-```
+    ```
+    kubectl get deployments,pods -l app=helloworld
+    ```
 
 15. Check that the service is present.
-```
-kubectl get services -l app=helloworld
-```
+    ```
+    kubectl get services -l app=helloworld
+    ```
 
 16. Create the gateway and virtual service to access the example application.
-```
-kubectl apply -f istio-1.12.7/samples/helloworld/helloworld-gateway.yaml
-```
+    ```
+    kubectl apply -f istio-1.12.7/samples/helloworld/helloworld-gateway.yaml
+    ```
 
 17. Verify that the gateway and virtual service resources are deployed.
-```
-kubectl get gateways,virtualservices
-```
+    ```
+    kubectl get gateways,virtualservices
+	```
 
 ### Generate sample traffic
 
@@ -125,25 +125,25 @@ kubectl get gateways,virtualservices
 
 19. At this point you can refresh the browser a few times to test that the load balancer is balancing traffic between the v1 and v2 pods, but that quickly gets boring. The Istio sample files include a `loadgen.sh` shell script to generate traffic automatically but, as we're on Windows, we're going to use the following PowerShell script:
 
-```pwsh
+	```pwsh
 
-$env:GATEWAY_URL = "192.168.59.100:80" # Set this to be the ingress IP and port number for Istio
+	$env:GATEWAY_URL = "192.168.59.100:80" # Set this to be the ingress IP and port number for Istio
 
-while ($true) {
-    curl http://$env:GATEWAY_URL/hello | Out-Null # Out-Null suppresses the output of the curl command in the terminal
-    Start-Sleep -Seconds 1 # Reduce this value if you want to send more traffic to the deployed service 
-} 
+	while ($true) {
+    	curl http://$env:GATEWAY_URL/hello | Out-Null # Out-Null suppresses the output of the curl command in the terminal
+    	Start-Sleep -Seconds 1 # Reduce this value if you want to send more traffic to the deployed service 
+	} 
 
-```
+	```
 
 20. Create the above script in VSCode, it as `loadgen.ps1` and run it from the terminal window.
 
 ### Access the Istio dashboard
 
 21. Open a new PowerShell window and run the following command to view the Istio Kiali dashboard.
-```
-istioctl dashboard kiali
-```
+	```
+	istioctl dashboard kiali
+	```
 
 ![Kiali Overview](/assets/images/kiali-overview.png)
 

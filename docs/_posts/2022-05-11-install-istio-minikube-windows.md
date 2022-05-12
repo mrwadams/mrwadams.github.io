@@ -145,10 +145,10 @@ while ($true) {
 istioctl dashboard kiali
 ```
 
-![Kiali Overview](/assets/images/kiali-overview.png)
+![Kiali Overview](/docs/assets/images/kiali-overview.png)
 
 22. Click on `Applications` and select the default namespace. Click on the `helloworld` application name.
-![Kiali Applications Dashboard](/assets/images/kiali-apps.png)
+![Kiali Applications Dashboard](assets/images/kiali-apps.png)
 
 23. The `Overview` tab shows the connections between the Istio ingress gateway, the application service and the pods that are processing requests.
 ![Kiali Application Overview](/assets/images/kiali-app-overview.png)

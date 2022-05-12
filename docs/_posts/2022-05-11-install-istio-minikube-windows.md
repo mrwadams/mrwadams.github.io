@@ -124,13 +124,16 @@ kubectl get gateways,virtualservices
 18. Before using the script in the next step, check that you can access the application by opening a browser and navigating to `http://192.168.59.100:80/hello`. Replace the IP address with the one for the ingress gateway that you noted down after Step 9. The default port and URL path prefix for the application are `80` and `/hello` respectively.
 
 19. At this point you can refresh the browser a few times to test that the load balancer is balancing traffic between the v1 and v2 pods, but that quickly gets boring. The Istio sample files include a `loadgen.sh` shell script to generate traffic automatically but, as we're on Windows, we're going to use the following PowerShell script:
-```powershell
+
+```pwsh
+
 $env:GATEWAY_URL = "192.168.59.100:80" # Set this to be the ingress IP and port number for Istio
 
 while ($true) {
     curl http://$env:GATEWAY_URL/hello | Out-Null # Out-Null suppresses the output of the curl command in the terminal
     Start-Sleep -Seconds 1 # Reduce this value if you want to send more traffic to the deployed service 
 } 
+
 ```
 
 20. Create the above script in VSCode, it as `loadgen.ps1` and run it from the terminal window.
@@ -141,31 +144,32 @@ while ($true) {
 ```
 istioctl dashboard kiali
 ```
-![Kiali Overview](assets\images\kiali-overview.png)
+
+![Kiali Overview](/assets/images/kiali-overview.png)
 
 22. Click on `Applications` and select the default namespace. Click on the `helloworld` application name.
-![Kiali Applications Dashboard](assets\images\kiali-apps.png)
+![Kiali Applications Dashboard](/assets/images/kiali-apps.png)
 
 23. The `Overview` tab shows the connections between the Istio ingress gateway, the application service and the pods that are processing requests.
-![Kiali Application Overview](assets\images\kiali-app-overview.png)
+![Kiali Application Overview](/assets/images/kiali-app-overview.png)
 
 24. Click on the application name, then click on the `Inbound Metrics` tab to see network traffic graphs.
-![Kiali Inbound Metrics](assets\images\kiali-inbound-metrics.png)
+![Kiali Inbound Metrics](/assets/images/kiali-inbound-metrics.png)
 
 25. Click on the `Traces` tab to show the graph with data points for each processed request. Hover on any data point to view the duration of the processing.
-![Kiali Traces Graph](assets\images\kiali-traces.png)
+![Kiali Traces Graph](/assets/images/kiali-traces.png)
 
 26. Click on `Workloads` then click on the deployment name `helloworld-v1`.
-![Kiali Workloads](assets\images\kiali-workloads.png)
+![Kiali Workloads](/assets/images/kiali-workloads.png)
 
 27. Click on the `Logs` tab to display the logs for the pod containers.
-![Kiali Logs](assets\images\kiali-logs.png)
+![Kiali Logs](/assets/images/kiali-logs.png)
 
 28. Click on `Services`, then click on the `helloworld` service. This displays the service topology.
-![Kiali Service Topology](assets\images\kiali-service-topology.png)
+![Kiali Service Topology](/assets/images/kiali-service-topology.png)
 
 29. Click on the `Inbound Metrics` tab to display the metrics for the ingress traffic for this specific service.
-![Kiali Service Inbound Metrics](assets\images\kiali-service-inbound-metrics.png)
+![Kiali Service Inbound Metrics](/assets/images/kiali-service-inbound-metrics.png)
 
 -----
 

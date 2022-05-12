@@ -145,31 +145,31 @@ As we're deploying Istio on Minikube and not a public cloud we will use [MetalLB
 	istioctl dashboard kiali
 	```
 
-![Kiali Overview](/assets/images/kiali-overview.png)
+	![Kiali Overview](/assets/images/kiali-overview.png)
 
 22. Click on `Applications` and select the default namespace. Click on the `helloworld` application name.
-![Kiali Applications Dashboard](/assets/images/kiali-apps.png)
+	![Kiali Applications Dashboard](/assets/images/kiali-apps.png)
 
 23. The `Overview` tab shows the connections between the Istio ingress gateway, the application service and the pods that are processing requests.
-![Kiali Application Overview](/assets/images/kiali-app-overview.png)
+	![Kiali Application Overview](/assets/images/kiali-app-overview.png)
 
 24. Click on the application name, then click on the `Inbound Metrics` tab to see network traffic graphs.
-![Kiali Inbound Metrics](/assets/images/kiali-inbound-metrics.png)
+	![Kiali Inbound Metrics](/assets/images/kiali-inbound-metrics.png)
 
 25. Click on the `Traces` tab to show the graph with data points for each processed request. Hover on any data point to view the duration of the processing.
-![Kiali Traces Graph](/assets/images/kiali-traces.png)
+	![Kiali Traces Graph](/assets/images/kiali-traces.png)
 
 26. Click on `Workloads` then click on the deployment name `helloworld-v1`.
-![Kiali Workloads](/assets/images/kiali-workloads.png)
+	![Kiali Workloads](/assets/images/kiali-workloads.png)
 
 27. Click on the `Logs` tab to display the logs for the pod containers.
-![Kiali Logs](/assets/images/kiali-logs.png)
+	![Kiali Logs](/assets/images/kiali-logs.png)
 
 28. Click on `Services`, then click on the `helloworld` service. This displays the service topology.
-![Kiali Service Topology](/assets/images/kiali-service-topology.png)
+	![Kiali Service Topology](/assets/images/kiali-service-topology.png)
 
 29. Click on the `Inbound Metrics` tab to display the metrics for the ingress traffic for this specific service.
-![Kiali Service Inbound Metrics](/assets/images/kiali-service-inbound-metrics.png)
+	![Kiali Service Inbound Metrics](/assets/images/kiali-service-inbound-metrics.png)
 
 -----
 

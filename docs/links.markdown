@@ -16,3 +16,9 @@ permalink: /links/
 | **Link**                                                   | **Description**                                                            |
 |------------------------------------------------------------|----------------------------------------------------------------------------|
 | [Kubernetes Goat](https://madhuakula.com/kubernetes-goat/) | An interactive testing environment for learning about securing Kubernetes. |
+
+## Security Architecture
+
+| **Link**                                           | **Description**                                         |
+|----------------------------------------------------|---------------------------------------------------------|
+| [SecurityPatterns.io](https://securitypatterns.io) | How to write better and more reusable security designs. |

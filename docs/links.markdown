@@ -22,3 +22,10 @@ permalink: /links/
 | **Link**                                           | **Description**                                         |
 |----------------------------------------------------|---------------------------------------------------------|
 | [SecurityPatterns.io](https://securitypatterns.io) | How to write better and more reusable security designs. |
+
+
+## Tools
+
+| **Link**                                       | **Description**                            |
+|------------------------------------------------|--------------------------------------------|
+| [CyberChef](https://gchq.github.io/CyberChef/) | A web app used to analyse and decode data. |

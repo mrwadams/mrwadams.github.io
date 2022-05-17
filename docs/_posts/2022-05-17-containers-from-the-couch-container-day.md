@@ -2,7 +2,7 @@
 layout: post
 title: "Notes from Containers from the Couch | Container Day"
 date: 2022-05-17 00:00:00 -0000
-categories: kubernetes aws security
+categories: kubernetes
 ---
 
 The following are some notes I made while watching Lukonde Mwila's informative talk on [Container Security in AWS Container Services](https://youtu.be/Iyp9Ugk9oRs?t=4772), which was part of Containers from the Couch Container Day.

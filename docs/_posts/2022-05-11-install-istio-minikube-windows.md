@@ -2,7 +2,7 @@
 layout: post
 title: "How to install Istio on a Minikube cluster on Windows"
 date: 2022-05-11 00:00:00 -0000
-categories: kubernetes istio minikube
+categories: kubernetes
 ---
 
 ## Background

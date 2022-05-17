@@ -16,7 +16,7 @@ Security considerations at each layer of the K8S stack:
 |---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Workload      | Tends to be top of mind when people think about securing Kubernetes but it's important to consider layers that are lower down in the stack as well.                                                                                       |
 | Control Plane | {::nomarkdown}<ul><li>Need to secure K8S API Server.</li><li>Lots of network traffic between API Server, Scheduler and Controller Manager that also needs to be secured.</li><li>Access to Kubelet API needs to be secured.</li></ul>{:/} |
-|Infrastructure / Hosts | {::nomarkdown}<ul><li>Only open required ports</li><li>Secure host operating system</li><li>Tools like seccomp, SELinux and AppArmor can help with securing host OS</li><li>[This video](https://www.youtube.com/watch?v=ZRo9sIykO98) gives an example of how to use AppArmor to secure K3S cluster hosts.</li></ul>{:/}
+|Infrastructure / Hosts | {::nomarkdown}<ul><li>Only open required ports</li><li>Secure host operating system</li><li>Tools like seccomp, SELinux and AppArmor can help with securing host OS</li><li><a href="https://www.youtube.com/watch?v=ZRo9sIykO98">This video</a> gives an example of how to use AppArmor to secure K3S cluster hosts.</li></ul>{:/}
 
 ## Considerations for securing K8S
 ![Securing K8S](/assets/images/securing-k8s.png)

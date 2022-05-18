@@ -21,6 +21,7 @@ permalink: /links/
 
 | **Link**                                           | **Description**                                         |
 |----------------------------------------------------|---------------------------------------------------------|
+| [Awesome Threat Modelling](https://github.com/hysnsec/awesome-threat-modelling) | A curated list of threat modelling resources. |
 | [SecurityPatterns.io](https://securitypatterns.io) | How to write better and more reusable security designs. |
 
 

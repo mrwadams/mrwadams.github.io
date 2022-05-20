@@ -15,6 +15,7 @@ permalink: /links/
 
 | **Link**                                                   | **Description**                                                            |
 |------------------------------------------------------------|----------------------------------------------------------------------------|
+| [Awesome K8s Security](https://github.com/magnologan/awesome-k8s-security) | A curated list of K8s security resources. |
 | [Kubernetes Goat](https://madhuakula.com/kubernetes-goat/) | An interactive testing environment for learning about securing Kubernetes. |
 
 ## Security Architecture

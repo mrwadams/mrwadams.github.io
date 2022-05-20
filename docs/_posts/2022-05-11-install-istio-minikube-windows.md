@@ -177,3 +177,44 @@ As we're deploying Istio on Minikube and not a public cloud we will use [MetalLB
 
 -----
 
+### Clean up
+30. Close the browser window that's displaying the Istio Kiali dashboard.
+
+31. Switch to the terminal window that's running the `loadgen.ps1` and press `Ctrl+C`.
+
+32. Review the gateways and virtual services present in the current namespace.
+    ```
+    kubectl get gateways
+    ```
+
+33. Delete the gateway and virtual service resources.
+    ```
+    kubectl delete gateway helloworld-gateway
+    ```
+
+34. Review the resources with the `app=helloworld` label.
+    ```
+    kubectl get all -l app=helloworld
+    ```
+
+35. Delete all resources with the `app=helloworld` label.
+    ```
+    kubectl delete all -l app=helloworld
+    ```
+
+36. Remove the label from the `default` namespace.
+    ```
+    kubectl label namescpae default istio-injection-
+    ```
+
+-----
+
+**Note:** The dash at the end of the command instructs `kubectl` to remove the label.
+
+-----
+
+-----
+
+**Note:** The Istio installation can also be removed but I've kept it for further testing.
+
+-----

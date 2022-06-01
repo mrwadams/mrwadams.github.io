@@ -3,6 +3,7 @@ layout: post
 title: "OAuth 2.0 and OpenID Connect"
 date: 2022-06-01 00:00:00 -0000
 categories:
+tags:[oauth,oidc]
 ---
 
 Here are some notes I made while watching Nate Barbettini's presentation on OAuth 2.0 and OpenID Connect. You can find the video of the talk [here](https://www.youtube.com/watch?v=996OiexHze0).

@@ -30,8 +30,7 @@ url: "https://mrwadams.github.io" # the base hostname & protocol for your site, 
 github_username:  mrwadams
 
 # Build settings
-#remote_theme: jekyll/minima
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
 

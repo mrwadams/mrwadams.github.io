@@ -3,6 +3,12 @@ layout: page
 title: Links
 permalink: /links/
 ---
+## CTF
+
+| **Link**                                    | **Description**                     |
+|---------------------------------------------|-------------------------------------|
+| [0xdf Hacks Stuff](https://0xdf.gitlab.io/) | Write-ups for retired HTB machines. |
+
 
 ## Documentation
 
@@ -13,10 +19,10 @@ permalink: /links/
 
 ## Kubernetes
 
-| **Link**                                                   | **Description**                                                            |
-|------------------------------------------------------------|----------------------------------------------------------------------------|
-| [Awesome K8s Security](https://github.com/magnologan/awesome-k8s-security) | A curated list of K8s security resources. |
-| [Kubernetes Goat](https://madhuakula.com/kubernetes-goat/) | An interactive testing environment for learning about securing Kubernetes. |
+| **Link**                                                                   | **Description**                                                            |
+|----------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [Awesome K8s Security](https://github.com/magnologan/awesome-k8s-security) | A curated list of K8s security resources.                                  |
+| [Kubernetes Goat](https://madhuakula.com/kubernetes-goat/)                 | An interactive testing environment for learning about securing Kubernetes. |
 
 ## Security Architecture
 

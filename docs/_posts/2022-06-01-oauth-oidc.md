@@ -38,3 +38,4 @@ OIDC provides:
 Authorisation Server returns Access Token and ID Token (JWT).
 
 Tokens are validated through Introspection.
+![OIDC Authorisation Flow](/assets/images/oidc-flow.png)

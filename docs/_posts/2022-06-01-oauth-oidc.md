@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OAuth 2.0 and OpenID Connect        "
+title: "OAuth 2.0 and OpenID Connect"
 date: 2022-06-01 00:00:00 -0000
 categories:
 ---

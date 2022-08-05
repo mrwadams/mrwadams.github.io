@@ -29,6 +29,7 @@ permalink: /links/
 | **Link**                                           | **Description**                                         |
 |----------------------------------------------------|---------------------------------------------------------|
 | [Awesome Threat Modelling](https://github.com/hysnsec/awesome-threat-modelling) | A curated list of threat modelling resources. |
+| [OAuth 2.0 Security Cheat Sheet](https://github.com/koenbuyens/oauth-2.0-security-cheat-sheet) | A useful reference for OAuth 2.0 related questions / considerations. |
 | [SecurityPatterns.io](https://securitypatterns.io) | How to write better and more reusable security designs. |
 
 

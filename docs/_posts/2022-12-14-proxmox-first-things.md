@@ -1,3 +1,11 @@
+---
+layout: post
+title: "The first things I do when installing Proxmox"
+date: 2022-12-14 00:00:00 -0000
+categories:
+tags: [proxmox,virtualisation]
+---
+
 # The first things I do when installing Proxmox
 
 ## Background

@@ -16,22 +16,22 @@ After installing Proxmox, the first step is to SSH into the host to configure up
 
 1. Open the apt sources list in `nano` or `vi` to add the non-production source
 
-```bash
-nano /etc/apt/sources.list
-```
+    ```bash
+    nano /etc/apt/sources.list
+    ```
 
 2. Add the following couple of lines to the end of the file.
 
-```bash
-# not for production use
-deb http://download.proxmox.com/debian bullseye pve-no-subscription
-```
+    ```bash
+    # not for production use
+    deb http://download.proxmox.com/debian bullseye pve-no-subscription
+    ```
 
 3. Now open up the enterprise sources list and comment out the line(s) in that file. This prevents errors when running `apt-get update` and other similar commands.
 
-```bash
-nano /etc/apt/sources.list.d/pve-enterprise.list
-```
+    ```bash
+    nano /etc/apt/sources.list.d/pve-enterprise.list
+    ```
 
 ## Add NAS storage
 I use a NAS to centrally store `iso` files on my network, as well as a serving as a target for VZDump backup files from Proxmox. The next step is to tell Proxmox where to find this storage and supply the credentials for the service account used to access it.

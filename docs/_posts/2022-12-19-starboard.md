@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Taking Kubernetes security scanning to the next level with Starboard"
-date: 2022-12-17 00:00:00 -0000
+date: 2022-12-19 00:00:00 -0000
 categories:
 tags: [starboard,kube-bench,cis,trivy,kube-hunter]
 ---

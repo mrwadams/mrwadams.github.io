@@ -20,10 +20,14 @@ The basic process involves first running Subfinder to identify a list of target 
 ## How can you prevent subdomains from becoming vulnerable?
 Preventing subdomain takeover attacks is an important aspect of maintaining a secure online presence. Here are a few recommendations for organisations to prevent these attacks:
 
-    1. Keep track of all subdomains that are registered and actively maintain them.
-    2. Regularly review the DNS records for all subdomains to ensure they are configured correctly. You should pay particular attention to CNAME records that point to services that are easy to execute takeover attacks on (e.g. AWS S3).
-    3. Use a subdomain monitoring service to be notified of any changes to the subdomains.
-    4. Implement a process for reporting and addressing subdomain takeover vulnerabilities as soon as they are discovered.
-    5. Regularly perform security testing for all subdomains to identify vulnerabilities that could be exploited in a takeover attack.
+1. Keep track of all subdomains that are registered and actively maintain them.
+
+2. Regularly review the DNS records for all subdomains to ensure they are configured correctly. You should pay particular attention to CNAME records that point to services that are easy to execute takeover attacks on (e.g. AWS S3).
+
+3. Use a subdomain monitoring service to be notified of any changes to the subdomains.
+
+4. Implement a process for reporting and addressing subdomain takeover vulnerabilities as soon as they are discovered.
+
+5. Regularly perform security testing for all subdomains to identify vulnerabilities that could be exploited in a takeover attack.
 
 By using the combination of Subfinder and Subjack, and following the above recommendations, organisations can proactively hunt for and remediate takeover vulnerabilites before they can be exploited.

@@ -6,8 +6,6 @@ categories:
 tags: [proxmox,virtualisation]
 ---
 
-# The first things I do when installing Proxmox
-
 ## Background
 Like many home-labbers I'm a fan of using Proxmox as a bare-metal hypervisor and occassionally have a need to install it on a new host. The purpose of this post is to remind me of the steps that I normally go through immediately after installing Proxmox on a new host and before spinning up any guest VMs.
 

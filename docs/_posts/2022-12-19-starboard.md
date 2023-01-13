@@ -5,12 +5,12 @@ date: 2022-12-19 00:00:00 -0000
 categories:
 tags: [starboard,kube-bench,cis,trivy,kube-hunter]
 ---
-# Background
+## Background
 After previously looking at [trivy](https://www.matt-adams.co.uk/2022/09/06/trivy.html) and [kube-bench](https://www.matt-adams.co.uk/2022/12/16/kube-bench.html) as a standalone benchmarking tool, I then began experimenting with [Starboard](https://aquasecurity.github.io/starboard/v0.15.8/), an integrated suite of Kubernetes security tools, which includes trivy, kube-bench, and a couple of other useful tools.
 
 The purpose of this post is to document how I install and run Starboard CLI on Kubernetes clusters in my home lab.
 
-# Install
+## Install
 
 Before we do anything, let's make a new directory to put our installation files in.
 
@@ -35,9 +35,9 @@ Check everything's working as expected by running `starboard help`.
 
 Lastly, initialise Starboard by running `starboard install`. This one-time command creates a `starboard` namespace and sends custom security resource definitions to the Kubernetes API.
 
-# Scanning workloads
+## Scanning workloads
 
-## Vulnerability Scans
+### Vulnerability Scans
 
 Starboard utilises Trivy to perform vulnerability scans.
 
@@ -65,7 +65,7 @@ If the scanned deployment contains multiple containers, you can use the `--conta
 starboard get vulnerabilityreports deployment/[deployment name] --container [container name] -o yaml
 ```
 
-## CIS benchmark scans
+### CIS benchmark scans
 
 Starboard incorporates kube-bench to run CIS benchmark scans of clusters. To start a scan:
 
@@ -79,7 +79,7 @@ To retrieve kube-bench reports:
 kubectl get ciskubebenchreports -o wide
 ```
 
-## kube-hunter scans
+### kube-hunter scans
 
 We can take our vulnerability scanning a step further by using kube-hunter to hunt for vulnerabilities in a cluster. Running kube-hunter is as simple as:
 ```bash
@@ -92,7 +92,7 @@ Like the kube-bench results, Starboard stores the output from kube-hunter as a C
 kubectl get kubehunterreports -o wide
 ```
 
-# Generating HTML reports
+## Generating HTML reports
 Outputting yaml to the CLI is handy for quick checks, but it's possible to make the reports more presentable by generating them in an HTML format:
 
 ```bash
@@ -107,5 +107,5 @@ python3 -m http.server 8001
 The following is an example of the generated report format.
 ![Starboard HTML report](../assets/images/starboard-html-report.png)
 
-# References
+## References
 [Starboard Documentation](https://aquasecurity.github.io/starboard/)

@@ -105,7 +105,7 @@ If you're SSH'd into the server you're running Starboard on, you can view the re
 python3 -m http.server 8001
 ```
 The following is an example of the generated report format.
-![Starboard HTML report](../assets/images/starboard-html-report.png)
+![Starboard HTML report](/assets/images/starboard-html-report.png)
 
 ## References
 [Starboard Documentation](https://aquasecurity.github.io/starboard/)

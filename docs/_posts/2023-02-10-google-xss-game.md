@@ -35,7 +35,7 @@ We can therefore go ahead and use the following basic XSS payload to pop an aler
 ```html
 <script>alert("XSS")</script>
 ```
-![Level 1](../assets/images/google-xss-level1.png)
+![Level 1](/assets/images/google-xss-level1.png)
 
 
 ## Level 2: Persistence is key
@@ -43,7 +43,7 @@ At the start of this level we're presented with a simple chat app and invited to
 
 Generating a test post with a payload of `<u>XSS Test</u>` shows that once again, there appears to be no santisation or filtering in play. In the following screenshot you can see that the `<u>` tags have been parsed by the browser - this looks promising!
 
-![Level 2](../assets/images/google-xss-level2.png)
+![Level 2](/assets/images/google-xss-level2.png)
 
 If we try our basic payload again however, it doesn't pop an alert. It seems like the devs have learnt from Level 1 and are filtering out our `<script>` tags so we'll have to try a different attack vector:
 
@@ -74,7 +74,7 @@ Looking at the source code for the page we can see that the `chooseTab` function
 
 We can amend the source of this value (which is the [URL fragment](https://en.wikipedia.org/wiki/URI_fragment) for the page) so that it updates the `<img src>` tag in the `chooseTab` function to run our XSS payload:
 
-![Level 3](../assets/images/google-xss-level3.png)
+![Level 3](/assets/images/google-xss-level3.png)
 
 After updating the URL with our payload, clicking `Go` updates the DOM so that it now contains the following line of code, which pops our alert.
 
@@ -106,7 +106,7 @@ In this case, we still add a number to be passed to the `startTimer` function, b
 ## Level 5: Breaking protocol
 In Level 5 we're introduced 'Groovy Reader 2.0' and asked if we want to sign-up for an exclusive beta programme. The first page doesn't contain any interesting functionality, but on the email entry page we can see that a URL parameter is being used to specify the page that the user should be redirected when they click the `Next >>` link at the bottom of the page.
 
-![Level 5](../assets/images/google-xss-level5.png)
+![Level 5](/assets/images/google-xss-level5.png)
 
 By adding an XSS payload into the value of the parameter we can update the link target so that our XSS attack will execute when the `Next >>` button is clicked:
 
@@ -134,10 +134,10 @@ Since the regex is case sensitive, simply changing one of the letters in http to
 
 Once we've worked around the regex, getting our XSS PoC to trigger is as simple as hosting a `.js` file on a public page and updating the value of the parameter on the page so that it points to our file. In my case I added a file to one of my public GitHub repos and then used [githack.com](http://raw.githack.com) to link to it.
 
-![Level 6](../assets/images/google-xss-level6.png)
+![Level 6](/assets/images/google-xss-level6.png)
 
 
 ## Congratulations! 🎉
 That brings us to the end of what I thought was a pretty fun set of challenges that demonstrate some of the potential options for performing XSS attacks. Time for cake! 🎂
 
-![Congratulations!](../assets/images/google-xss-complete.png)
+![Congratulations!](/assets/images/google-xss-complete.png)

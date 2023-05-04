@@ -57,9 +57,9 @@ On its third review cycle, SecBot is happy with the security of the submitted co
 
 This approach of using multiple AI agents with unique roles and skill sets has the potential to be incredibly powerful and has several key benefits:
 
-    🎯 Focused expertise: Each AI agent can concentrate on its assigned role, becoming more proficient in that area, similar to human subject matter experts.
-    🧠 Cross-functional learning: The AI agents learn from each other's expertise, leading to innovative solutions and a broader understanding of the project.
-    ⏱️ Faster development: Tasks were completed within a few minutes, accelerating the development process.
-    🛡️ Enhanced security: A dedicated security AI agent ensured that the application was built with security in mind from the beginning.
+  - 🎯 Focused expertise: Each AI agent can concentrate on its assigned role, becoming more proficient in that area, similar to human subject matter experts.
+  - 🧠 Cross-functional learning: The AI agents learn from each other's expertise, leading to innovative solutions and a broader understanding of the project.
+  - ⏱️ Faster development: Tasks were completed within a few minutes, accelerating the development process.
+  - 🛡️ Enhanced security: A dedicated security AI agent ensured that the application was built with security in mind from the beginning.
 
 Working with collaborative AI agents in this way has been an eye-opening experience, showcasing the potential to revolutionise software development and application security. As AI technology advances, I'm really excited to be a part of this rapidly evolving field!

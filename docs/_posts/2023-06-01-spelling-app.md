@@ -26,7 +26,7 @@ def text_to_audio(word):
 
 This function uses Google's Text-to-Speech service to convert the selected word into audio, which is then played back to the learner. This auditory input is not only engaging but also helps children understand the correct pronunciation of words.
 
-![A screenshot of the app](assets/images/spelling-app.jpg)
+![A screenshot of the app](/assets/images/spelling-app.jpg)
 
 The heart of the app is the Practise Spellings page, where children interact with the word list, listen to the words, and attempt to spell them correctly. Here's a snippet of the code that handles this:
 

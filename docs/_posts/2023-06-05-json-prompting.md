@@ -1,4 +1,10 @@
-# Using JSON Prompting to create an Incident Response Triager
+---
+layout: post
+title: "Using JSON Prompting to create an Incident Response Triager"
+date: 2023-6-5 00:00:00 -0000
+categories:
+tags: [json,llm,gpt-4]
+---
 
 In this post I want to share with you an interesting approach to prompt engineering that I came across recently. To demonstrate this I'll be using JSON formatted prompts to create an Incident Response Triager with GPT-4.
 

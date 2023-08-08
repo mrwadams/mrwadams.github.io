@@ -10,7 +10,7 @@ tags: [generativeai,owasp,llms,langchain]
 
 Generative AI is undeniably shaping the future of technology, and its implications in cybersecurity are both vast and transformative. I had the privilege of sharing my insights on this topic at the OWASP London Chapter Meeting on August 3rd, 2023. My talk, titled "Doing More with Less: Practical Applications for Generative AI in Cybersecurity," aimed to shed light on the real-world applications of this groundbreaking technology.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cwZDqJFhYAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+{% include youtube.html id="cwZDqJFhYAo" %}
 
 ## Key Insights from My Talk
 

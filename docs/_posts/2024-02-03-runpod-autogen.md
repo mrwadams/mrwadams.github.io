@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using RunPod hosted LLMs for text generation via an API"
+title: "Using RunPod hosted LLMs with AutoGen"
 date: 2024-02-03 00:00:00 -0000
 categories:
 tags: [generativeai,runpod,llms,api,autogen]

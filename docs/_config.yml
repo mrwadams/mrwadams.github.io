@@ -22,10 +22,10 @@ title: Matt Adams
 email: mrwadams@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my home on the web.
-domain: mrwadams.github.io
+domain: www.matt-adams.co.uk
 baseurl: "" # the subpath of your site, e.g. /blog
 
-url: "https://mrwadams.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.matt-adams.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username:
 github_username:  mrwadams
 

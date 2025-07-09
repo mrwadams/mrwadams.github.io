@@ -17,6 +17,11 @@ This is a curated list of high-quality resources for building and understanding 
 
 A comprehensive video tutorial on building agents using LangGraph, covering practical implementation details and best practices.
 
+### Ask David: Multi-Agent AI for Investment Research - JP Morgan Chase
+**Link**: [https://www.youtube.com/watch?v=yMalr0jiOAc](https://www.youtube.com/watch?v=yMalr0jiOAc)
+
+From LangChain's Interrupt conference, David Odomirok and Zheng Xue from JP Morgan Chase Private Bank demonstrate "Ask David" - a sophisticated multi-agent AI system that automates investment research for thousands of financial products. This enterprise-grade system showcases how to build AI agents with human oversight for high-stakes financial decisions involving billions in assets.
+
 ## Written Guides
 
 ### Building Effective Agents - Anthropic

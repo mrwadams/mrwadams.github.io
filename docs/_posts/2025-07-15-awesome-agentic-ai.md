@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Awesome Agentic AI: A Curated List of Resources"
-date: 2025-06-28 00:00:00 -0000
+date: 2025-07-15 00:00:00 -0000
 categories:
 tags: [genai,agents,ai,resources,learning]
 ---
@@ -33,6 +33,14 @@ Anthropic's engineering guide on building effective AI agents. This resource pro
 **Link**: [https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf)
 
 OpenAI's practical guide offering a business-oriented perspective on building AI agents. This PDF covers use cases, implementation strategies, and considerations for deploying agents in production environments.
+
+## Tools & Applications
+
+### LangGraph Flow Designer
+**GitHub**: [https://github.com/mrwadams/langgraph-flow-designer](https://github.com/mrwadams/langgraph-flow-designer)  
+**Live App**: [https://langgraph-flow-designer.vercel.app/](https://langgraph-flow-designer.vercel.app/)
+
+A visual flow designer I created for building and managing LangGraph workflows. This interactive tool provides a drag-and-drop interface for designing complex graph-based AI workflows, featuring grid snap alignment, multiple node types (regular, START, END, subgraph), conditional edge connections, and JSON export/import capabilities. Built with React and Vite, it simplifies the process of designing sophisticated AI agent workflows by providing an intuitive visual development environment.
 
 ---
 

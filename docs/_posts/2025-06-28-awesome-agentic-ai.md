@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Awesome Agentic AI: A Curated List of Resources"
-date: 2025-07-15 00:00:00 -0000
+date: 2025-06-28 00:00:00 -0000
+last_modified_at: 2025-07-21 00:00:00 -0000
 categories:
 tags: [genai,agents,ai,resources,learning]
 ---
@@ -33,6 +34,11 @@ Anthropic's engineering guide on building effective AI agents. This resource pro
 **Link**: [https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf)
 
 OpenAI's practical guide offering a business-oriented perspective on building AI agents. This PDF covers use cases, implementation strategies, and considerations for deploying agents in production environments.
+
+### An Introduction to Google's Approach for Secure AI Agents
+**Link**: [https://research.google/pubs/an-introduction-to-googles-approach-for-secure-ai-agents/](https://research.google/pubs/an-introduction-to-googles-approach-for-secure-ai-agents/)
+
+Google Research presents an aspirational framework for building secure AI agents based on three core principles: well-defined human controllers, carefully limited powers, and observable actions. The paper advocates for a defense-in-depth strategy combining traditional deterministic security controls with dynamic reasoning-based defenses, aiming to develop AI agents that are powerful, useful, and secure by default.
 
 ## Tools & Applications
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Testing AI Agent Security: Prompt Injection Vulnerability Research"
-date: 2025-01-28 00:00:00 -0000
+date: 2025-07-26 00:00:00 -0000
 categories:
 tags: [security,ai,agents,research,prompt-injection]
 ---

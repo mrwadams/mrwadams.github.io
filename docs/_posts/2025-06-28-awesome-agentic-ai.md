@@ -2,7 +2,7 @@
 layout: post
 title: "Awesome Agentic AI: A Curated List of Resources"
 date: 2025-06-28 00:00:00 -0000
-last_modified_at: 2025-07-22 00:00:00 -0000
+last_modified_at: 2025-08-28 00:00:00 -0000
 categories:
 tags: [genai,agents,ai,resources,learning]
 ---
@@ -29,6 +29,11 @@ From LangChain's Interrupt conference, David Odomirok and Zheng Xue from JP Morg
 **Link**: [https://www.anthropic.com/engineering/building-effective-agents](https://www.anthropic.com/engineering/building-effective-agents)
 
 Anthropic's engineering guide on building effective AI agents. This resource provides insights from the creators of Claude on agent design patterns, common pitfalls, and architectural considerations.
+
+### Claude Code Best Practices - Anthropic
+**Link**: [https://www.anthropic.com/engineering/claude-code-best-practices](https://www.anthropic.com/engineering/claude-code-best-practices)
+
+Anthropic's comprehensive guide to best practices for using Claude Code effectively. This resource covers optimal workflows, command patterns, and strategies for maximizing productivity when building software with Claude's AI assistance.
 
 ### A Practical Guide to Building Agents - OpenAI
 **Link**: [https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf](https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf)

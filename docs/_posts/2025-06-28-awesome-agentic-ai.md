@@ -2,7 +2,7 @@
 layout: post
 title: "Awesome Agentic AI: A Curated List of Resources"
 date: 2025-06-28 00:00:00 -0000
-last_modified_at: 2025-08-28 00:00:00 -0000
+last_modified_at: 2025-10-19 00:00:00 -0000
 categories:
 tags: [genai,agents,ai,resources,learning]
 ---
@@ -23,7 +23,7 @@ A comprehensive video tutorial on building agents using LangGraph, covering prac
 
 From LangChain's Interrupt conference, David Odomirok and Zheng Xue from JP Morgan Chase Private Bank demonstrate "Ask David" - a sophisticated multi-agent AI system that automates investment research for thousands of financial products. This enterprise-grade system showcases how to build AI agents with human oversight for high-stakes financial decisions involving billions in assets.
 
-## Written Guides
+## Practical Guides & Best Practices
 
 ### Building Effective Agents - Anthropic
 **Link**: [https://www.anthropic.com/engineering/building-effective-agents](https://www.anthropic.com/engineering/building-effective-agents)
@@ -56,6 +56,21 @@ MAESTRO (Multi-Agent Environment, Security, Threat, Risk, and Outcome) is a comp
 **Link**: [https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/](https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/)
 
 OWASP's comprehensive resource exploring key threats and mitigation strategies for agentic AI. This guide focuses on security measures to address vulnerabilities in AI applications and their potential risks, providing practical guidance for developers and security professionals working with autonomous AI systems.
+
+### The Lethal Trifecta for AI Agents - Simon Willison
+**Link**: [https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/](https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/)
+
+Simon Willison identifies a critical security vulnerability pattern in AI agents: the dangerous combination of private data access, exposure to untrusted content, and external communication capabilities. This article explains how combining these three elements creates opportunities for exploitation through prompt injection attacks, where attackers can trick AI systems into leaking sensitive data. Willison, who coined the term "prompt injection," draws parallels to SQL injection and emphasizes the importance of avoiding this lethal combination when designing AI agent systems.
+
+### Design Patterns for Securing LLM Agents against Prompt Injections
+**Link**: [https://arxiv.org/abs/2506.08837](https://arxiv.org/abs/2506.08837)
+
+A comprehensive research paper by Beurer-Kellner et al. that proposes principled design patterns for building AI agents with provable resistance to prompt injection attacks. The paper systematically analyzes security patterns including the Action-Selector Pattern (which prevents feedback from actions to the agent) and the Plan-Then-Execute Pattern (which allows tool output feedback while preventing influence on action choices). Through detailed case studies, the authors examine trade-offs between security guarantees and agent utility, providing practical guidance for developing secure LLM-based agents that handle sensitive information and tool access.
+
+### Defeating Prompt Injections by Design
+**Link**: [https://arxiv.org/abs/2503.18813](https://arxiv.org/abs/2503.18813)
+
+Research from Google, Google DeepMind, and ETH Zurich that introduces CaMeL (Capability-based Memory and Logic), a robust defense system against prompt injection attacks in LLM agents. CaMeL creates a protective system layer around the LLM that explicitly extracts control and data flows from trusted queries, preventing untrusted data from affecting program flow. Using a capability-based approach to prevent data exfiltration, CaMeL achieves 77% task success with provable security guarantees compared to 84% with undefended systems in AgentDojo, demonstrating that strong security can be achieved with minimal utility trade-offs.
 
 ## Tools & Applications
 

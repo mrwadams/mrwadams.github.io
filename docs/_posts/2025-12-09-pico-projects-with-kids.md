@@ -45,6 +45,7 @@ The Pico W connects to your Wi-Fi network and starts a simple web server on port
 
 ### Code
 
+{% raw %}
 ```python
 import network
 import socket
@@ -129,6 +130,7 @@ while True:
         cl.close()
         print('Connection closed')
 ```
+{% endraw %}
 
 ### What We Learned
 
@@ -171,6 +173,7 @@ The TMP36 is an analog temperature sensor. The Pico reads the voltage on its ADC
 
 ### Code
 
+{% raw %}
 ```python
 import machine
 import socket
@@ -266,6 +269,7 @@ while True:
         cl.close()
         print('Connection closed')
 ```
+{% endraw %}
 
 ### What We Learned
 
@@ -304,6 +308,7 @@ This project introduces conditional logic - the "brain" of any automation system
 
 ### Code
 
+{% raw %}
 ```python
 import machine
 import socket
@@ -405,6 +410,7 @@ while True:
         cl.close()
         print('Connection closed')
 ```
+{% endraw %}
 
 ### What We Learned
 

@@ -14,6 +14,31 @@ If you would like to contact me about a potential role then please message me on
 
 -----
 
+### Ask an AI about me
+
+I've built an [MCP server](https://github.com/mrwadams/mcp-matt-adams) that lets AI assistants explore my professional profile, project portfolio, and security expertise. Add it to Claude Code, Claude Desktop, or any MCP-compatible client:
+
+**Claude Code CLI:**
+```bash
+claude mcp add matt-adams -- npx -y mcp-remote https://mcp.matt-adams.co.uk/mcp
+```
+
+**Claude Desktop** — add to your config file:
+```json
+{
+  "mcpServers": {
+    "matt-adams": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://mcp.matt-adams.co.uk/mcp"]
+    }
+  }
+}
+```
+
+<br>
+
+-----
+
 ### My Expertise
 - AI/ML Security & Agentic AI
 - Security Product Engineering

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Links
+exclude: true
 permalink: /links/
 ---
 ## CTF

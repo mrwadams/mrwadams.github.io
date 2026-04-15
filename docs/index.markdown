@@ -1,7 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
-Welcome to my home on the web.
+I'm a cybersecurity leader with 20 years' experience, currently heading AI security engineering and emerging technology security at a tier-1 global bank. I write here about AI security, threat modelling, agentic AI, and whatever else I'm building or experimenting with.
+
+I maintain open-source security tools with 2,200+ GitHub stars, including [STRIDE-GPT](https://github.com/mrwadams/stride-gpt) and [AttackGen](https://github.com/mrwadams/attackgen).
+
+[CV](/cv/) &bull; [GitHub](https://github.com/mrwadams) &bull; [LinkedIn](https://www.linkedin.com/in/matthewrwadams/)

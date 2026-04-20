@@ -69,6 +69,8 @@ claude mcp add matt-adams -- npx -y mcp-remote https://mcp.matt-adams.co.uk/mcp
 
 * **[TM-Bench](https://github.com/mrwadams/tm-bench)** — Benchmark for evaluating LLM threat modelling capability across four scoring dimensions.
 
+* **[AI Insider Threat Model](https://ai-insider-threat.matt-adams.co.uk/)** — Framework applying traditional insider threat methodology to frontier AI agents, treating them as potential threat actors within enterprise security systems.
+
 <br>
 
 -----

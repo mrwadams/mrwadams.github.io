@@ -21,6 +21,7 @@ A curated collection of tools, frameworks, and references for AI security practi
 | [TM-Bench](https://github.com/mrwadams/tm-bench) | Benchmark for evaluating how well LLMs perform threat modelling across four scoring dimensions. |
 | [OWASP AI Top 10 Comparator](https://owaspai.matt-adams.co.uk) | Interactive tool comparing all five OWASP AI security Top 10 lists side by side — overlap matrix, gap analysis, and personalised relevance scoring. |
 | [OTX MCP Server](https://github.com/mrwadams/otx-mcp) | AlienVault OTX integration via MCP for threat intelligence lookups. |
+| [AI Insider Threat Model](https://ai-insider-threat.matt-adams.co.uk/) | Framework applying traditional insider threat methodology to frontier AI agents, treating them as potential threat actors within enterprise security systems. |
 
 <br>
 

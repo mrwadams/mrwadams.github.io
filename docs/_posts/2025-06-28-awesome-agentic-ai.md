@@ -2,7 +2,7 @@
 layout: post
 title: "Awesome Agentic AI: A Curated List of Resources"
 date: 2025-06-28 00:00:00 -0000
-last_modified_at: 2025-10-19 00:00:00 -0000
+last_modified_at: 2026-06-05 00:00:00 -0000
 categories:
 tags: [genai,agents,ai,resources,learning]
 ---
@@ -66,6 +66,11 @@ Simon Willison identifies a critical security vulnerability pattern in AI agents
 **Link**: [https://arxiv.org/abs/2506.08837](https://arxiv.org/abs/2506.08837)
 
 A comprehensive research paper by Beurer-Kellner et al. that proposes principled design patterns for building AI agents with provable resistance to prompt injection attacks. The paper systematically analyzes security patterns including the Action-Selector Pattern (which prevents feedback from actions to the agent) and the Plan-Then-Execute Pattern (which allows tool output feedback while preventing influence on action choices). Through detailed case studies, the authors examine trade-offs between security guarantees and agent utility, providing practical guidance for developing secure LLM-based agents that handle sensitive information and tool access.
+
+### Zero Trust for AI Agents - Anthropic
+**Link**: [https://claude.com/blog/zero-trust-for-ai-agents](https://claude.com/blog/zero-trust-for-ai-agents)
+
+Anthropic's framework for applying Zero Trust principles ("trust nothing, verify everything, assume breach") to enterprise deployments of autonomous AI agents. The guide addresses agent-specific threat vectors including prompt injection, tool poisoning, identity abuse, and memory poisoning, and proposes a three-tier maturity model (Foundation, Advanced, Optimized) alongside an eight-phase workflow covering cryptographically-rooted agent identities, task-scoped permissions, sandboxing, and memory safeguards. It also introduces "Agentic SOAR" for defensive operations that can keep pace with AI-accelerated attacks, with practical compliance considerations for regulated industries.
 
 ### Defeating Prompt Injections by Design
 **Link**: [https://arxiv.org/abs/2503.18813](https://arxiv.org/abs/2503.18813)

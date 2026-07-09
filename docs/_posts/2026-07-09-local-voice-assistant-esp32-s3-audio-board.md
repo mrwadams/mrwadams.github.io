@@ -6,6 +6,9 @@ categories: [ai, esp32]
 tags: [llm, voice-assistant, xiaozhi, lm-studio, self-hosting, esp32-s3, wake-word]
 ---
 
+![The Waveshare ESP32-S3-AUDIO-Board](/assets/images/esp32-s3-audio-board.jpg)
+*The Waveshare ESP32-S3-AUDIO-Board. Photo: [Waveshare](https://www.waveshare.com/esp32-s3-audio-board.htm).*
+
 I picked up a [Waveshare ESP32-S3-AUDIO-Board](https://docs.waveshare.com/ESP32-S3-AUDIO-Board) to have a play with. It is built for voice work: an ES8311 codec, an ES7210 ADC feeding a dual microphone array with hardware echo cancellation, a speaker amplifier, and a ring of addressable RGB LEDs, all driven by an ESP32-S3 with 8MB of PSRAM.
 
 I wanted to see if I could turn it into a voice assistant that runs entirely on my own hardware. No cloud service, no API keys, nothing leaving the house. A microphone in a room that only ever talks to a box on my own network is a much easier thing to be comfortable with than the alternative. This is a write-up of how I got there, including the bits that caught me out, so I can repeat it later.

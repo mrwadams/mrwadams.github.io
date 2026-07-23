@@ -34,13 +34,14 @@ remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
 
-header_pages:
-  - about.markdown
-  - cv.markdown
-  - links.markdown
-
 minima:
   skin: dark
+  nav_pages:
+    - about.markdown
+    - cv.markdown
+    - projects.markdown
+    - speaking.markdown
+    - links.markdown
 
 
 # Exclude from processing.

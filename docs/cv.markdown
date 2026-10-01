@@ -77,6 +77,7 @@ claude mcp add matt-adams -- npx -y mcp-remote https://mcp.matt-adams.co.uk/mcp
 
 ## Speaking & Publications
 
+* **Cloud Security Alliance SDLC Security Guardrails Summit 2026** — Threat-led triage when AI makes vulnerability discovery cheap
 * **AI in Financial Services Deep Dive 2025** — Agentic AI and emerging threats in financial services
 * **XLoD Global London 2025** — Plenary panel on security, stability, and speed
 * **UNLEASH World 2025** — Fireside chat on quantum, brain tech, and bio-AI

@@ -28,6 +28,7 @@ My largest stage so far was UNLEASH World 2025 in Paris, one of the biggest HR a
 
 | Event | Date | Format | Audience |
 |---|---|---|---|
+| Cloud Security Alliance SDLC Security Guardrails Summit, London | Sep 2026 | Conference talk | CISOs and heads of AppSec and vulnerability management |
 | Securing Financial Services Summit, London | Jul 2026 | Conference talk | CISOs and risk leaders in financial services |
 | Securing the Law Firm, London | Jul 2026 | Conference talk | Law firm CISOs and security leaders |
 | AI in Financial Services Deep Dive, London | Nov 2025 | Conference talk with live demos | FS technology and security leaders |
@@ -39,7 +40,7 @@ My largest stage so far was UNLEASH World 2025 in Paris, one of the biggest HR a
 
 <br>
 
-Talk topics have ranged from "Actions Speak Louder Than Tokens: Treating Frontier AI Agents as Insider Threats", which I gave at both the Securing Financial Services Summit and its sister event Securing the Law Firm, to "Doing More with Less: Practical Applications for Generative AI in Cybersecurity" at OWASP London. Recordings from the OWASP London and Open Security Summit talks are on [YouTube](https://youtu.be/cwZDqJFhYAo).
+Talk topics have ranged from "Drowning in True Positives: Threat-Led Triage When Discovery Costs Nothing" at the Cloud Security Alliance SDLC Security Guardrails Summit, and "Actions Speak Louder Than Tokens: Treating Frontier AI Agents as Insider Threats", which I gave at both the Securing Financial Services Summit and its sister event Securing the Law Firm, to "Doing More with Less: Practical Applications for Generative AI in Cybersecurity" at OWASP London. Recordings from the OWASP London and Open Security Summit talks are on [YouTube](https://youtu.be/cwZDqJFhYAo).
 
 <br>
 

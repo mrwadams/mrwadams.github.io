@@ -6,7 +6,7 @@ permalink: /cv/
 
 I'm a cybersecurity leader with 20 years' experience, currently VP, Head of AI Security at Sapiens, a provider of software platforms for the insurance industry. Before that I headed AI security engineering and emerging technology security at a tier-1 global bank, where I built the function from scratch — creating a dedicated environment to incubate new AI use cases, recruiting and growing a multinational engineering team, and delivering multiple AI security products into production across the CISO function.
 
-I maintain open-source security tools with 2,200+ GitHub stars, co-lead a financial services industry working group on AI shared responsibility, and speak regularly at industry events on AI security and threat modelling.
+I maintain open-source security tools with 2,200+ GitHub stars and speak regularly at industry events on AI security and threat modelling. I previously co-led a financial services industry working group on AI shared responsibility.
 
 If you would like to contact me about a potential role then please message me on [LinkedIn](https://www.linkedin.com/in/matthewrwadams/).
 
@@ -99,7 +99,7 @@ claude mcp add matt-adams -- npx -y mcp-remote https://mcp.matt-adams.co.uk/mcp
 ### VP, Head of AI Security — Sapiens
 <i>Oct 2026 – Present</i>
 
-* Leading AI security at Sapiens, a provider of software platforms for the insurance industry.
+* Leading AI security strategy, architecture and risk at Sapiens, a provider of software platforms for the insurance industry, including agentic AI and the Sapiens Autonomous Insurance Platform (AIP) product.
 
 <br>
 
@@ -125,7 +125,7 @@ claude mcp add matt-adams -- npx -y mcp-remote https://mcp.matt-adams.co.uk/mcp
 
 * Designed a scaling plan with a skills assessment framework and development pathways across three tracks (Technical Implementation, Governance, Domain Expert)
 
-* Co-lead, industry AI Shared Responsibility Model working group for financial services
+* Co-led the industry AI Shared Responsibility Model working group for financial services
 
 <br>
 

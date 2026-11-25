@@ -4,7 +4,7 @@ title: CV
 permalink: /cv/
 ---
 
-I'm a cybersecurity leader with 20 years' experience, currently heading AI security engineering and emerging technology security at a tier-1 global bank. I built the function from scratch — creating a dedicated environment to incubate new AI use cases, recruiting and growing a multinational engineering team, and delivering multiple AI security products into production across the CISO function.
+I'm a cybersecurity leader with 20 years' experience, currently VP and Head of AI Security at Sapiens, a provider of software platforms for the insurance industry. Before that I headed AI security engineering and emerging technology security at a tier-1 global bank, where I built the function from scratch — creating a dedicated environment to incubate new AI use cases, recruiting and growing a multinational engineering team, and delivering multiple AI security products into production across the CISO function.
 
 I maintain open-source security tools with 2,200+ GitHub stars, co-lead a financial services industry working group on AI shared responsibility, and speak regularly at industry events on AI security and threat modelling.
 

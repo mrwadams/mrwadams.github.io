@@ -96,8 +96,15 @@ claude mcp add matt-adams -- npx -y mcp-remote https://mcp.matt-adams.co.uk/mcp
 
 ## Experience
 
+### VP, Head of AI Security — Sapiens
+<i>Oct 2026 – Present</i>
+
+* Leading AI security at Sapiens, a provider of software platforms for the insurance industry.
+
+<br>
+
 ### Head of AI & Emerging Technology Security — Tier-1 Global Bank
-<i>Mar 2024 – Present</i>
+<i>Mar 2024 – Oct 2026</i>
 
 * Built the AI security engineering function from the ground up — now a global team delivering security products, assurance, and strategy for GenAI and agentic AI. Also responsible for emerging technology security across Blockchain/DLT and Quantum Computing.
 

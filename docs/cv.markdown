@@ -99,7 +99,7 @@ claude mcp add matt-adams -- npx -y mcp-remote https://mcp.matt-adams.co.uk/mcp
 ### VP, Head of AI Security — Sapiens
 <i>Oct 2026 – Present</i>
 
-* Leading AI security at Sapiens, a provider of software platforms for the insurance industry.
+* Leading AI security strategy, architecture and risk at Sapiens, a provider of software platforms for the insurance industry, including agentic AI and the Sapiens Autonomous Insurance Platform (AIP) product.
 
 <br>
 

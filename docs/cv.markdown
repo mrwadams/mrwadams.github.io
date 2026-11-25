@@ -77,6 +77,7 @@ claude mcp add matt-adams -- npx -y mcp-remote https://mcp.matt-adams.co.uk/mcp
 
 ## Speaking & Publications
 
+* **Sysdig Ground Truth London 2026** — Panel on accountability when AI agents do the work
 * **Cloud Security Alliance SDLC Security Guardrails Summit 2026** — Threat-led triage when AI makes vulnerability discovery cheap
 * **Securing Financial Services Summit 2026** — Actions Speak Louder Than Tokens: treating frontier AI agents as insider threats
 * **Securing the Law Firm 2026** — Actions Speak Louder Than Tokens: treating frontier AI agents as insider threats

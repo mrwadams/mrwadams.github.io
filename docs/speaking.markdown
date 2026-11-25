@@ -28,6 +28,7 @@ My largest stage so far was UNLEASH World 2025 in Paris, one of the biggest HR a
 
 | Event | Date | Format | Audience |
 |---|---|---|---|
+| Sysdig Ground Truth, London | Dec 2026 | Panel | Security leaders securing AI workloads |
 | Cloud Security Alliance SDLC Security Guardrails Summit, London | Sep 2026 | Conference talk | CISOs and heads of AppSec and vulnerability management |
 | Securing Financial Services Summit, London | Jul 2026 | Conference talk | CISOs and risk leaders in financial services |
 | Securing the Law Firm, London | Jul 2026 | Conference talk | Law firm CISOs and security leaders |

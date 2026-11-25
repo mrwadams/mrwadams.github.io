@@ -4,7 +4,7 @@ title: Speaking
 permalink: /speaking/
 ---
 
-I speak at industry events on AI security, threat modelling, and what happens when autonomous agents start acting inside enterprise systems. I've got nearly 20 years in cybersecurity and I'm VP and Head of AI Security at Sapiens, after building the AI security engineering function at a tier-1 global bank, so most of my talks come with live demos and examples from real production work rather than slideware.
+I speak at industry events on AI security, threat modelling, and what happens when autonomous agents start acting inside enterprise systems. I've got nearly 20 years in cybersecurity and I'm VP, Head of AI Security at Sapiens, after building the AI security engineering function at a tier-1 global bank, so most of my talks come with live demos and examples from real production work rather than slideware.
 
 My largest stage so far was UNLEASH World 2025 in Paris, one of the biggest HR and technology events in the world with 8,200 delegates, where I joined a fireside panel alongside Microsoft's Corporate Vice President for Discovery and Quantum.
 
